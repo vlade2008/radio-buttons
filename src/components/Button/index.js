@@ -2,9 +2,9 @@ import React from 'react'
 import './styles.css'
 
 const Button = (props) => {
-  const { value } = props;
+  const { value, onClick, id, disabled } = props;
   return (
-    <button>
+    <button onClick={()=>onClick(id)} disabled={disabled}>
       {value}
     </button>
   )

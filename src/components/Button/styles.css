@@ -11,7 +11,7 @@ button {
   transition: ease 0.5s;
 }
 
-button:hover {
+button:hover:enabled {
   cursor: pointer;
   background-color: #4dabf5;
 }
